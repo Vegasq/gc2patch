@@ -122,10 +122,50 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.home h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home h2:first-of-type {
+  margin-top: 0;
+}
+
+.home h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+}
+
+.home p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.home .hero-logo {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
 .home .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: var(--color-text);
+}
+
+.game-showcase {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.game-showcase img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .home .hero .tagline {
@@ -281,11 +321,15 @@ a:hover {
 }
 
 .post-content ul,
-.post-content ol {
-  margin: 1rem 0 1rem 1.5rem;
+.post-content ol,
+.home ul,
+.home ol {
+  margin: 1rem 0 1rem 2rem;
+  padding-left: 0.5rem;
 }
 
-.post-content li {
+.post-content li,
+.home li {
   margin-bottom: 0.5rem;
 }
 
