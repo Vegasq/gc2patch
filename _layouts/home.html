@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="home">
+  {{ content }}
+
+  <section class="recent-changes">
+    <h2>Recent Changes</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+      <li>
+        <article class="post-summary">
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          {% if post.version %}<span class="version">v{{ post.version }}</span>{% endif %}
+          {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          {% endif %}
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="{{ '/changelog/' | relative_url }}" class="view-all">View all changes &rarr;</a>
+  </section>
+</div>

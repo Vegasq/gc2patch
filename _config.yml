@@ -1,0 +1,60 @@
+# Site settings
+title: Ground Control 2 Community Patch
+description: Community-driven patches and improvements for Ground Control 2
+baseurl: "" # subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme settings (using minima as base, customized)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 10
+paginate_path: "/changelog/page:num/"
+
+# Collections
+collections:
+  changelogs:
+    output: true
+    permalink: /changelog/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "changelogs"
+    values:
+      layout: "changelog"
+      comments: true
+
+# Giscus comments configuration
+giscus:
+  repo: "vegasq/gc2patch"
+  repo_id: "R_kgDOQyP0zg"
+  category: "Announcements"
+  category_id: "DIC_kwDOQyP0zs4C0eHQ"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "preferred_color_scheme"
+  lang: "en"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
