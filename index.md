@@ -4,33 +4,42 @@ title: Home
 ---
 
 <div class="hero">
-  <h1>Ground Control 2 Community Patch</h1>
-  <p class="tagline">Keeping the fight alive with community-driven fixes and improvements</p>
+  <h1>GC2 Essentials</h1>
+  <p class="tagline">Essential fixes for Ground Control 2: Operation Exodus</p>
   <div class="cta-buttons">
-    <a href="/download/" class="btn btn-primary">Download Latest Patch</a>
-    <a href="/changelog/" class="btn btn-secondary">View Changelog</a>
+    <a href="https://github.com/Vegasq/Ground-Control-2-wireless-fix/releases" class="btn btn-primary">Download GC2 Essentials</a>
   </div>
 </div>
 
-<div class="features">
-  <div class="feature">
-    <h3>Bug Fixes</h3>
-    <p>Community-identified bugs squashed to improve stability and gameplay experience.</p>
-  </div>
-  <div class="feature">
-    <h3>Compatibility</h3>
-    <p>Updated for modern systems - Windows 10/11 support and widescreen resolutions.</p>
-  </div>
-  <div class="feature">
-    <h3>Multiplayer</h3>
-    <p>Restored and improved multiplayer functionality for online battles.</p>
-  </div>
-</div>
+## About
 
-## About This Patch
+GC2 Essentials is an all-in-one patch pack that bundles the most important community fixes for Ground Control 2: Operation Exodus.
 
-The Ground Control 2 Community Patch is an unofficial patch maintained by fans of this classic RTS game. Our goal is to fix bugs, improve compatibility with modern systems, and keep the multiplayer community alive.
+**Supported game version:** 1.0.0.8 (Steam or GOG)
 
-Ground Control 2: Operation Exodus was released in 2004 by Massive Entertainment. While official support has long ended, the community continues to enjoy this tactical masterpiece.
+## Installation
+
+1. Locate your Ground Control 2 installation folder
+2. Extract all files from the archive into the game folder
+3. Overwrite existing files when prompted
+
+## What's Included
+
+### Wireless Fix
+Fixes network connectivity issues that prevent LAN and online multiplayer from working on modern systems.
+
+*Author: [Vegasq](https://github.com/Vegasq/Ground-Control-2-wireless-fix)*
+
+### 16:9 Widescreen Fix
+Reworks the aspect ratio of most UI elements to be rendered correctly in 16:9 resolutions.
+
+*Author: [Renigen](https://www.moddb.com/games/ground-control-ii/addons/ground-control-2-16x9-widescreen-mod)*
+
+### OpenSpy Multiplayer Servers
+Replaces the defunct GameSpy multiplayer servers with community-run OpenSpy servers, restoring online multiplayer functionality.
+
+*Author: [OpenSpy Team](https://openspy.net/howto/generic/groundcontrol2)*
+
+---
 
 **This is an unofficial community project and is not affiliated with Massive Entertainment or Vivendi Universal Games.**

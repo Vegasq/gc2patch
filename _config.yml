@@ -1,8 +1,8 @@
 # Site settings
-title: Ground Control 2 Community Patch
-description: Community-driven patches and improvements for Ground Control 2
-baseurl: "" # subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: GC2 Essentials
+description: Essential fixes for Ground Control 2 in a single download
+baseurl: ""
+url: "https://gc2.mkla.dev"
 
 # Build settings
 markdown: kramdown
